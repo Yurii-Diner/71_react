@@ -2,9 +2,9 @@
 // import Button from "./components/Button/Button";
 // Импорты лекций
 // import Lesson02 from "./lessons/Lesson02/Lesson02";
-import Lesson03 from "./lessons/Lesson03/Lesson03";
+// import Lesson03 from "./lessons/Lesson03/Lesson03";
 // Импорты домашних работ
-// import Homework02 from "./homeworks/Homework02/Homework02";
+ import Homework02 from "./homeworks/Homework02/Homework02.jsx";
 
 function App() {
   return (
@@ -16,9 +16,9 @@ function App() {
       </div> */}
       {/* Лекция 2 */}
       {/* <Lesson02 /> */}
-      {/* <Homework02 /> */}
+      <Homework02 />
       {/* Лекция 3 */}
-      <Lesson03 />
+      {/*<Lesson03 />*/}
     </>
   );
 }
