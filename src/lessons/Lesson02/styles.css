@@ -1,0 +1,15 @@
+.lesson02-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  flex: 1;
+  padding-top: 50px;
+  background: rgb(222, 217, 168);
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
