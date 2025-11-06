@@ -1,4 +1,6 @@
 import "./styles.css";
+
+
 function AnimalCard({animalName, animalSpecies, animalImg, children}) {
   return (
     <div className="animal-card-wrapper">
@@ -9,4 +11,5 @@ function AnimalCard({animalName, animalSpecies, animalImg, children}) {
     </div>
   );
 }
+
 export default AnimalCard;

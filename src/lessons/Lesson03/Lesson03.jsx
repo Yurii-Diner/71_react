@@ -27,10 +27,8 @@ function Lesson03 (){
             animalSpecies = {hippoData.species}
             animalImg = {hippoData.image}
             />
-
-
+            
         </div>
-    
     );
 }
 export default Lesson03;
