@@ -15,7 +15,6 @@ function Lesson04() {
     <div className="lesson04-wrapper">
       <Counter />
       <div className="button-container">
-        
         {/* Пример 1 - создание функции внутри onClick (анонимная функции) */}
         <Button
           name="Inner func"
@@ -23,12 +22,8 @@ function Lesson04() {
             alert("Inner function");
           }}
         />
-        
-        
         {/* Пример 2 - создание функции вне кнопки и передача переменной в prop */}
         <Button name="Outer func" onClick={showMessage} />
-        
-        
         {/* Пример 3 - создание функции вне кнопки c параметрами */}
         <Button
           name="Func with param"

@@ -8,7 +8,7 @@ import Lesson04 from "./lessons/Lesson04/Lesson04.jsx";
 // Импорты домашних работ
 // import Homework02 from "./homeworks/Homework02/Homework02.jsx";
 // import Homework03 from "./homeworks/Homework03/Homework03.jsx";
-// import Homework04 from "./homeworks/Homework04/Homework04.jsx";
+import Homework04 from "./homeworks/Homework04/Homework04.jsx";
 // import Homework05 from "./homeworks/Homework05/Homework05.jsx";
 
 function App() {
@@ -17,13 +17,13 @@ function App() {
       {/* Лекции */}
       {/* <Lesson02 /> */}
       {/* <Lesson03 /> */}
-      <Lesson04 />
+      {/* <Lesson04 /> */}
       {/* <Lesson05 /> */}
 
       {/* <Домашнии работы /> */}
       {/* <Homework02 /> */}
       {/* <Homework03 /> */}
-      {/* <Homework04 /> */}
+      <Homework04 />
       {/* <Homework05 /> */}
     </>
   );

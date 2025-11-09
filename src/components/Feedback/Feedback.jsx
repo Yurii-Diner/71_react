@@ -78,13 +78,13 @@ function Feedback() {
 
         {/* Контейнер для блока с лайками */}
         <div className="like-dislike-container">
-          {/* Кнопка для добавления лайка с обработчиком onClick */}
+          {/* Кнопка для сброса лайков */}
           <Button name="Обнулить лайки" onClick={resetLikes} />
         </div>
         
         {/* Контейнер для блока с дизлайками */}
         <div className="like-dislike-container">
-          {/* Кнопка для добавления дизлайка с обработчиком onClick */}
+          {/* Кнопка для сброса дизлайков */}
           <Button name="Обнулить дизлайки" onClick={resetDislikes} />
         </div>
 
