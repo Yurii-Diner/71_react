@@ -1,13 +1,12 @@
-.lesson04-wrapper {
+.homework04-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 30px;
   flex: 1;
   padding: 50px;
-  background: rgb(167, 190, 231);
+  background: rgb(151, 188, 201);
 }
-
 .button-container {
   display: flex;
   flex-direction: column;
